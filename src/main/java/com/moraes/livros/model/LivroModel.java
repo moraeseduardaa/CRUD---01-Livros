@@ -19,6 +19,9 @@ public class LivroModel {
     @Column(name = "anoPublicacao")
     private Integer anoPublicacao;
 
+    public LivroModel() {
+    }
+
     public Long getId() {
         return id;
     }
